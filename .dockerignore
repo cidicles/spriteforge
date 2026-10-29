@@ -1,0 +1,11 @@
+data
+node_modules
+web/node_modules
+web/src
+web/index.html
+web/vite.config.js
+web/package.json
+test
+scripts
+*.md
+.gitignore

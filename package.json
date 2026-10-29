@@ -1,0 +1,16 @@
+{
+  "name": "spriteforge",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Hosted animated sprite-sheet generation: tenancy, credits, auth and scheduling around diablow's sprite pipeline.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test/run.js",
+    "build": "npm --prefix web run build",
+    "setup": "npm --prefix web install && npm --prefix web run build",
+    "dev": "npm --prefix web run dev",
+    "grant": "node scripts/grant.js"
+  },
+  "license": "UNLICENSED"
+}

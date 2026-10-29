@@ -1,0 +1,12 @@
+{
+  "slug": "spriteforge",
+  "name": "SpriteForge",
+  "tagline": "Animated sprite sheets from a prompt — real alpha, packed atlas, pivot at the feet. A non-functional demo: no model is connected, so the accounts, credits and job queue are real but the sprites are pre-rendered samples.",
+  "tags": ["tool", "sprites", "gamedev", "demo"],
+  "created": "2026-10-04",
+  "type": "docker",
+  "build": "cd web && npm install --no-audit --no-fund && npm run build",
+  "files": ["Dockerfile", ".dockerignore", "package.json", "server.js", "lib", "demo", "web/dist"],
+  "memory": "128m",
+  "thumbnail": "aislop-thumb.jpg"
+}

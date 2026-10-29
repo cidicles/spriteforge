@@ -1,0 +1,56 @@
+[
+  {
+    "id": "skeleton-idle",
+    "frames": 16,
+    "fps": 8,
+    "loop": true
+  },
+  {
+    "id": "skeleton-walk",
+    "frames": 12,
+    "fps": 12,
+    "loop": true
+  },
+  {
+    "id": "skeleton-attack",
+    "frames": 12,
+    "fps": 15,
+    "loop": false
+  },
+  {
+    "id": "skeleton-death",
+    "frames": 16,
+    "fps": 12,
+    "loop": false
+  },
+  {
+    "id": "warrior-idle",
+    "frames": 16,
+    "fps": 8,
+    "loop": true
+  },
+  {
+    "id": "warrior-walk",
+    "frames": 12,
+    "fps": 12,
+    "loop": true
+  },
+  {
+    "id": "warrior-attack",
+    "frames": 12,
+    "fps": 15,
+    "loop": false
+  },
+  {
+    "id": "ghoul-walk",
+    "frames": 12,
+    "fps": 14,
+    "loop": true
+  },
+  {
+    "id": "ghoul-death",
+    "frames": 12,
+    "fps": 12,
+    "loop": false
+  }
+]
